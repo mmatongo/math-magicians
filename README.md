@@ -6,7 +6,7 @@
 
 # Demo Link
 
-Click [here](https://mmatongo.github.io/math-magicians) to view the website online.
+Click [here](https://mmatongo.github.io/math-magicians/) to view the website online.
 
 # Screenshot
 
