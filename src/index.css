@@ -1,7 +1,7 @@
 .calc-body {
   width: 270px;
   height: 380px;
-  box-shadow: 0px 0px 25px 0px #aaa;
+  box-shadow: 0 0 25px 0 #aaa;
 }
 
 .calc-screen {
@@ -31,7 +31,6 @@
   border: 1px solid #858694;
 }
 
-
 .key-digits {
   background: #e0e0e7;
   display: flex;
@@ -40,5 +39,5 @@
 }
 
 .operators {
-  background: linear-gradient(to bottom, rgba(252,156,23,1) 0%, rgba(247,126,27,1) 100%);
+  background: linear-gradient(to bottom, rgba(252, 156, 23, 1) 0%, rgba(247, 126, 27, 1) 100%);
 }
