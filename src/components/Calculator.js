@@ -28,7 +28,9 @@ class Calculator extends React.Component {
             <CalcButton text="2" />
             <CalcButton text="3" />
             <CalcButton text="0" />
-            <CalcButton text="." />
+            <div className="key-dot">
+              <CalcButton text="." />
+            </div>
           </div>
           <div className="operators">
             <CalcButton text="÷" />
