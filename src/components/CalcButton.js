@@ -10,7 +10,7 @@ class CalcButton extends React.Component {
   render() {
     const { text } = this.props;
     return (
-      <div className="calc-buttons">{text}</div>
+      <button type="button" className="calc-buttons">{text}</button>
     );
   }
 }
