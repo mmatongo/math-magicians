@@ -11,15 +11,17 @@ class Calculator extends React.Component {
     this.handleCalculate = this.handleCalculate.bind(this);
   }
 
-  handleCalculate(calcObj) {
-    this.setState({ calcObj: calculate(calcObj) });
+  handleCalculate(calcObj, text) {
+    this.setState({ calcObj: calculate(calcObj, text) });
   }
 
   render() {
     const { calcObj } = this.state;
 
     let screen = '0';
-    if (Object.keys(calcObj).length === 0 || (calcObj.total && calcObj.next && calcObj.operator === null)) {
+    if (Object.keys(calcObj).length === 0 || (calcObj.total === null
+      && calcObj.next === null
+      && calcObj.operation === null)) {
       screen = '0';
     } else {
       screen = calcObj.next != null ? calcObj.next : calcObj.total;
