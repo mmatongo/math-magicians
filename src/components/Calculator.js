@@ -32,29 +32,29 @@ class Calculator extends React.Component {
         </div>
         <div className="keyboard">
           <div className="key-digits">
-            <CalcButton text="AC" />
-            <CalcButton text="+/-" />
-            <CalcButton text="%" />
-            <CalcButton text="7" />
-            <CalcButton text="8" />
-            <CalcButton text="9" />
-            <CalcButton text="4" />
-            <CalcButton text="5" />
-            <CalcButton text="6" />
-            <CalcButton text="1" />
-            <CalcButton text="2" />
-            <CalcButton text="3" />
-            <CalcButton text="0" />
+            <CalcButton text="AC" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="+/-" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="%" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="7" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="8" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="9" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="4" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="5" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="6" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="1" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="2" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="3" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="0" onClick={this.handleCalculate} mathObj={calcObj} />
             <div className="key-dot">
-              <CalcButton text="." />
+              <CalcButton text="." onClick={this.handleCalculate} mathObj={calcObj} />
             </div>
           </div>
           <div className="operators">
-            <CalcButton text="÷" />
-            <CalcButton text="x" />
-            <CalcButton text="-" />
-            <CalcButton text="+" />
-            <CalcButton text="=" />
+            <CalcButton text="÷" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="x" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="-" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="+" onClick={this.handleCalculate} mathObj={calcObj} />
+            <CalcButton text="=" onClick={this.handleCalculate} mathObj={calcObj} />
           </div>
         </div>
       </div>
