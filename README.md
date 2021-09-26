@@ -6,17 +6,11 @@
 
 # Demo Link
 
-Click [here](https://mmatongo.github.io/) to view the website online.
+Click [here](https://mmatongo.github.io/math-magicians/) to view the website online.
 
 # Screenshot
 
-Width - 1440px
-
-<!-- ![Image of the desktop view](./img/scr1.png) -->
-
-Width - 470px
-
-<!-- ![Image of the mobile view](./img/scr2.png) -->
+![Image of the desktop view](./img/1.png)
 
 # Getting Started
 
