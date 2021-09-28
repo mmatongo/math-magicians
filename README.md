@@ -6,7 +6,7 @@
 
 # Demo Link
 
-Click [here](https://mmatongo.github.io/math-magicians/) to view the website online.
+This application is hosted on [Github](https://mmatongo.github.io/math-magicians/), [Heroku](https://pacific-refuge-54957.herokuapp.com/), and [Netlify](https://brave-mayer-2d79c7.netlify.app).
 
 # Screenshot
 
