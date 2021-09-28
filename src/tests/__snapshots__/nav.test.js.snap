@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders the UI as expected 1`] = `
+<div
+  className="nav-component"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <nav
+    className="nav"
+  >
+    <ul
+      className="nav-list"
+    >
+      <li
+        className="nav-items"
+      >
+        <a
+          aria-current="page"
+          className="active-link"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+        <span
+          className="divider"
+        >
+           | 
+        </span>
+      </li>
+      <li
+        className="nav-items"
+      >
+        <a
+          aria-current={null}
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+        <span
+          className="divider"
+        >
+           | 
+        </span>
+      </li>
+      <li
+        className="nav-items"
+      >
+        <a
+          aria-current={null}
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+        <span
+          className="divider"
+        >
+           | 
+        </span>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
